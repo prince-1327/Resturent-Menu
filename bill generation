@@ -1,0 +1,84 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int order,no_meals;
+	cout<<"||*--------------MENU-----------*||"<<endl;
+	cout<<endl;
+	cout<<"(1) Chicken Biryani --> $2 only."<<endl;
+	cout<<"(2) Veg Biryani --> $1.5 only."<<endl;
+	cout<<"(3) Chicken Pulao --> $2.5 only."<<endl;
+	cout<<"(4) Chicken Burger --> $1 only."<<endl;
+	cout<<"(5) Nawabi Pizza --> $4.5 only."<<endl;
+	cout<<"(6) 2.5  Litre Coke --> $1.75 only."<<endl;
+	cout<<endl;
+
+	cout<<"Please select the order number :-"<<endl;
+	cin>>order;
+	cout<<"Please enter the number of meals :-"<<endl;
+	cin>>no_meals;
+	cout<<endl;
+	switch(order)
+	{
+		case 1:
+			cout<<"Order : Chicken Biryani."<<endl;
+			cout<<"Number of deals : "<<no_meals<<endl;
+			cout<<"Prince of each deal: $2 only"<<endl;
+			cout<<"Total price : "<<"$"<<2*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			
+			case 2:
+			cout<<"Order : Veg Biryani."<<endl;
+			cout<<"Number of deals : "<<no_meals<<endl;
+			cout<<"Prince of each deal: $1.5 only"<<endl;
+			cout<<"Total price : "<<"$"<<1.5*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			case 3:
+			cout<<"Order : Chicken Pulao."<<endl;
+			cout<<"Number of deals : "<<no_meals<<endl;
+			cout<<"Prince of each deal: $2.5 only"<<endl;
+			cout<<"Total price : "<<"$"<<2.5*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			case 4:
+			cout<<"Order : Chicken Burger."<<endl;
+			cout<<"Number of deals :-"<<no_meals<<endl;
+			cout<<"Prince of each deal: $1 only"<<endl;
+			cout<<"Total price : "<<"$"<<1*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			case 5:
+			cout<<"Order : Nawabi Pizza ."<<endl;
+			cout<<"Number of deals : "<<no_meals<<endl;
+			cout<<"Prince of each deal: $4.5 only"<<endl;
+			cout<<"Total price : "<<"$"<<4.5*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			case 6:
+			cout<<"Order : 2.5  Litre Coke."<<endl;
+			cout<<"Number of deals : "<<no_meals<<endl;
+			cout<<"Prince of each deal: $1.75 only"<<endl;
+			cout<<"Total price : "<<"$"<<1.75*no_meals<<" "<<"only"<<endl;
+			cout<<endl;
+			cout<<"THANK YOU FOR COMING !! "<<endl;
+			cout<<"PLEASE VISIT AGAIN !!"<<endl;
+			break;
+			
+			
+	}
+	cout<<endl;
+	return 0;
+	
+}
